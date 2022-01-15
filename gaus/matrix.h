@@ -21,6 +21,8 @@ void add_to_entry_matrix( matrix_t *, int i, int j, double val );
 
 double get_entry_matrix( matrix_t *, int i, int j );
 
+void free_matrix( matrix_t * );
+
 matrix_t * copy_matrix( matrix_t *s );
 
 matrix_t * transpose_matrix( matrix_t * s );
