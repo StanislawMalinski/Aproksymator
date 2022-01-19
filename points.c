@@ -25,8 +25,6 @@ realloc_pts_failed (points_t * pts, int size)
 		pts->y = tmp_y;
 		return 0;
 	}
-  /*return realloc (pts->x, size * sizeof *pts->x) == NULL
-    || realloc (pts->y, size * sizeof *pts->y) == NULL;*/
 }
 
 int
