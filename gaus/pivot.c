@@ -12,16 +12,16 @@ pivot_ge_matrix (matrix_t * a, int *row_per)
     int rn = c->rn;
     double *e = c->e;
     for (i = 0; i < rn; i++)
-      row_per[i] = i;
+      row_per[i] = i;			/* zapisujemy który element wiersza w k-tej kolumnie był największ */
     for (k = 0; k < rn - 1; k++) {      /* eliminujemy (zerujemy) kolumnę nr k */
-      int piv = k;              /* wybór eleemntu dominującego - maks. z k-tej kol., poniżej diag */
+      int piv = k;                      /* wybór eleemntu dominującego - maks. z k-tej kol., poniżej diag */
       for (i = k + 1; i < rn; i++)
         if (fabs (*(e + i * cn + k)) > fabs (*(e + piv * cn + k)))
           piv = i;
-      if (piv != k) {           /* jeśli diag. nie jest pivtem - wymień wiersze */
+      if (piv != k) {                   /* jeśli diag. nie jest pivtem - wymień wiersze */
         int tmp;
         xchg_rows (c, piv, k);
-        tmp = row_per[k];
+        tmp = row_per[k];               /* */
         row_per[k] = row_per[piv];
         row_per[piv] = tmp;
       }
