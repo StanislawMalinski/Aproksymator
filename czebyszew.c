@@ -88,13 +88,12 @@ make_spl(points_t * pts, spline_t * spl)
 	double		a = x[0];
 	double		b = x[pts->n - 1];
 	int		i, j, k;
-	int nb = 5;
-	/*int		nb = pts->n - 3 > 10 ? 10 : pts->n - 3;
+	int		nb = pts->n - 3 > 10 ? 10 : pts->n - 3;
   	char *nbEnv= getenv( "APPROX_BASE_SIZE" );
 
 	if( nbEnv != NULL && atoi( nbEnv ) > 0 )
 		nb = atoi( nbEnv );
-	*/
+	
 	eqs = make_matrix(nb, nb + 1);
 
 #ifdef DEBUG
@@ -127,17 +126,17 @@ make_spl(points_t * pts, spline_t * spl)
 			add_to_entry_matrix(eqs, j, nb, y[k] * fi(j, x[k]));
 	}
 
-//#ifdef DEBUG
+#ifdef DEBUG
 	write_matrix(eqs, stdout);
-//#endif
+#endif
 
 	if (piv_ge_solver(eqs)) {
 		spl->n = 0;
 		return;
 	}
-//#ifdef DEBUG
+#ifdef DEBUG
 	write_matrix(eqs, stdout);
-//#endif
+#endif
 
 	if (alloc_spl(spl, nb) == 0) {
 		for (i = 0; i < spl->n; i++) {
