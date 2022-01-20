@@ -20,7 +20,7 @@ LPETNJ
 
 double lin(double x);
 double pol(double x);
-double exp(double x);
+double exl(double x);
 double try(double x);
 double pur(double x);
 double smt(double x);
@@ -30,7 +30,7 @@ void druk(double( *funkcja)(double), double A, double B, int N){
     double h;
     h = (B-A)/(N-1);
     for( i = 0; i < N; i++){
-        printf("%f %f\n", A+i*h,lin(A+i*h));
+        printf("%f %f\n", A+i*h,funkcja(A+i*h));
     }
 }
 
@@ -48,37 +48,29 @@ int main(int argc, char **argv){
 	return 1; 
     }
     srand(time(NULL));
-    
-    switch(typ){
-	case 'L':
-	    druk( lin, A, B, N);
-	break;
-	case 'P':
-            druk( pol, A, B, N);
-	break;
-	case 'E':
-            druk( exp, A, B, N);
-	break;
-	case 'T':
-            druk( try, A, B, N);
-	break;
-	case 'N':
-            druk( pur, A, B, N);
-	break;
-	case 'J':
-            druk( smt, A, B, N);
-	break;
-    }
+    if(typ == '1')
+	      druk( lin, A, B, N);
+    if(typ == '2')
+              druk( pol, A, B, N);
+    if(typ == '3')
+              druk( exl, A, B, N);
+    if(typ == '4')
+              druk( try, A, B, N);
+    if(typ == '5')
+              druk( pur, A, B, N);
+    if(typ == '6')
+              druk( smt, A, B, N);
+    return 0;
 }
 
 double lin(double x){
-    return (x*70.0/89.0 + 3.2)*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
+    return (x*7354.0/83429.0 + 3342234.2)*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
 }
 double pol(double x){
-    return ((((x - 1.1)*x+2.2)*x-3.3)*x+4.4)*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
+    return (1.0/50.0*(x)*(x-25)*(x-50)*(x-100)+0)*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
 }
 double exl(double x){
-    return pow(1.03, x)*(double)(1-SZMER/1000.0*rand()/RAND_MAX); 
+    return pow(1.05, x)*(double)(1-SZMER/1000.0*rand()/RAND_MAX); 
 }
 double try(double x){
     return 2*sin(x)*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
@@ -88,6 +80,6 @@ double pur(double x){
 }
 
 double smt(double x){
-   return (1+x+x*x+x*x*x)+*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
+   return (sin(x/30))*(double)(1-SZMER/1000.0*rand()/RAND_MAX);
 }
 
