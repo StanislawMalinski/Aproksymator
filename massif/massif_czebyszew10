@@ -1,0 +1,3277 @@
+desc: --stacks=yes --max-snapshots=500
+cmd: ./czebyszew -s testspl7 -p test/dane.1 -g testplot7
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=30730
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=400
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=2
+#-----------
+time=53937
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1104
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=69889
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1112
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=87866
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1592
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=111652
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1592
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=139030
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1328
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=157638
+mem_heap_B=6168
+mem_heap_extra_B=40
+mem_stacks_B=3888
+heap_tree=peak
+n4: 6168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48E8105: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BA3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48B93BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 4096 0x10A194: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+        n0: 4096 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 800 0x10A070: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n0: 800 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 800 0x10A09C: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n0: 800 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n1: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x109611: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=8
+#-----------
+time=182085
+mem_heap_B=6168
+mem_heap_extra_B=40
+mem_stacks_B=2576
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=210603
+mem_heap_B=6168
+mem_heap_extra_B=40
+mem_stacks_B=2576
+heap_tree=detailed
+n4: 6168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E6E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x48E8105: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x48BA3FF: __vfscanf_internal (vfscanf-internal.c:627)
+      n1: 4096 0x48B93BC: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 4096 0x10A194: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+        n0: 4096 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 800 0x10A070: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n0: 800 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 800 0x10A09C: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n0: 800 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n1: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x109611: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=10
+#-----------
+time=238843
+mem_heap_B=6168
+mem_heap_extra_B=40
+mem_stacks_B=2584
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=257452
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=608
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=287701
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=310593
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=340927
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=361663
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=378885
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=396668
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=417052
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=447375
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=462542
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=608
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=486493
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=511289
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=528126
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=548174
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=573774
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=602591
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=624921
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=648172
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=670077
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=701108
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=719165
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=741109
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=608
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=770842
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=786338
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=810869
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=830278
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=851030
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=871782
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=892534
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=908061
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=929998
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=704
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=945491
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=969299
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=998955
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=704
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1025513
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1044222
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1070744
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=992
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=1100403
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1125432
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1141082
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1159914
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1177084
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1203642
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=704
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1228674
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1245884
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1275575
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1295852
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1311485
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1328677
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1353691
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1375531
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1397371
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1420791
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1438034
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1464578
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1489598
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1514663
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1527150
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1545935
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1575619
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1594351
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=1606871
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=1627210
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=1652207
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=984
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=1667829
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=1685025
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=1702221
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=1730356
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=1747556
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=1767877
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=608
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=1780394
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=1800719
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=1830466
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=1855522
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=1875866
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=1889943
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=1914942
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=88
+#-----------
+time=1929005
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=1957166
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=648
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=1975976
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=1999467
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=2013545
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=2033865
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=2051078
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=95
+#-----------
+time=2068257
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=2094853
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=97
+#-----------
+time=2121436
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=98
+#-----------
+time=2143319
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=99
+#-----------
+time=2160555
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=100
+#-----------
+time=2177753
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=101
+#-----------
+time=2201207
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=656
+heap_tree=empty
+#-----------
+snapshot=102
+#-----------
+time=2221515
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=103
+#-----------
+time=2248098
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=104
+#-----------
+time=2269965
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=105
+#-----------
+time=2294997
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=106
+#-----------
+time=2318480
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=107
+#-----------
+time=2329418
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=108
+#-----------
+time=2349753
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=109
+#-----------
+time=2362263
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=110
+#-----------
+time=2382634
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=111
+#-----------
+time=2409177
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=112
+#-----------
+time=2432677
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=113
+#-----------
+time=2457746
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=114
+#-----------
+time=2482786
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=115
+#-----------
+time=2507826
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=116
+#-----------
+time=2529713
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=117
+#-----------
+time=2546936
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=992
+heap_tree=empty
+#-----------
+snapshot=118
+#-----------
+time=2573505
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=119
+#-----------
+time=2589159
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=120
+#-----------
+time=2612609
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=121
+#-----------
+time=2628239
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=122
+#-----------
+time=2651672
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=123
+#-----------
+time=2679806
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=648
+heap_tree=empty
+#-----------
+snapshot=124
+#-----------
+time=2697029
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=125
+#-----------
+time=2711073
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=126
+#-----------
+time=2731387
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=127
+#-----------
+time=2747011
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=128
+#-----------
+time=2772029
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=129
+#-----------
+time=2792373
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=130
+#-----------
+time=2808027
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=131
+#-----------
+time=2826809
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=132
+#-----------
+time=2839307
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=133
+#-----------
+time=2858058
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=134
+#-----------
+time=2879947
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=135
+#-----------
+time=2897137
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=136
+#-----------
+time=2912753
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=137
+#-----------
+time=2936183
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=138
+#-----------
+time=2958085
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=139
+#-----------
+time=2976841
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=140
+#-----------
+time=2997157
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=141
+#-----------
+time=3020563
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=142
+#-----------
+time=3036142
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=143
+#-----------
+time=3054878
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=144
+#-----------
+time=3076729
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=145
+#-----------
+time=3093918
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=146
+#-----------
+time=3115765
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=147
+#-----------
+time=3132929
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=648
+heap_tree=empty
+#-----------
+snapshot=148
+#-----------
+time=3157925
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=149
+#-----------
+time=3178233
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=150
+#-----------
+time=3195397
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=151
+#-----------
+time=3209464
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=152
+#-----------
+time=3231355
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=153
+#-----------
+time=3247016
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=154
+#-----------
+time=3270432
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=155
+#-----------
+time=3286051
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=156
+#-----------
+time=3303278
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=608
+heap_tree=empty
+#-----------
+snapshot=157
+#-----------
+time=3326711
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=158
+#-----------
+time=3357919
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=159
+#-----------
+time=3379782
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=160
+#-----------
+time=3407909
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=161
+#-----------
+time=3432878
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=162
+#-----------
+time=3453171
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=163
+#-----------
+time=3479766
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=164
+#-----------
+time=3501621
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=165
+#-----------
+time=3528223
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=166
+#-----------
+time=3546964
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=167
+#-----------
+time=3562625
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=168
+#-----------
+time=3589182
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=169
+#-----------
+time=3606387
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=170
+#-----------
+time=3636082
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=600
+heap_tree=empty
+#-----------
+snapshot=171
+#-----------
+time=3654849
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=992
+heap_tree=empty
+#-----------
+snapshot=172
+#-----------
+time=3676718
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=173
+#-----------
+time=3693948
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=174
+#-----------
+time=3711142
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=175
+#-----------
+time=3732982
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=176
+#-----------
+time=3757971
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=177
+#-----------
+time=3782994
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=178
+#-----------
+time=3803333
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=179
+#-----------
+time=3820529
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=180
+#-----------
+time=3845535
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=181
+#-----------
+time=3864313
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=182
+#-----------
+time=3892484
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=183
+#-----------
+time=3923704
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=184
+#-----------
+time=3944021
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=185
+#-----------
+time=3956525
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=186
+#-----------
+time=3975309
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=187
+#-----------
+time=3994046
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=188
+#-----------
+time=4009647
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=936
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=189
+#-----------
+time=4033097
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=190
+#-----------
+time=4050284
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=191
+#-----------
+time=4070625
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=192
+#-----------
+time=4095640
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=193
+#-----------
+time=4115967
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=194
+#-----------
+time=4144055
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=195
+#-----------
+time=4161259
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=196
+#-----------
+time=4187882
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=197
+#-----------
+time=4217553
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=198
+#-----------
+time=4240961
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=199
+#-----------
+time=4254988
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=200
+#-----------
+time=4273718
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=201
+#-----------
+time=4295558
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=202
+#-----------
+time=4309604
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=203
+#-----------
+time=4326825
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=204
+#-----------
+time=4350248
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=205
+#-----------
+time=4365869
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=206
+#-----------
+time=4390839
+mem_heap_B=1848
+mem_heap_extra_B=1168
+mem_stacks_B=712
+heap_tree=detailed
+n5: 1848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=207
+#-----------
+time=4406355
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=208
+#-----------
+time=4425102
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=209
+#-----------
+time=4454771
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=210
+#-----------
+time=4471937
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=211
+#-----------
+time=4487567
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=212
+#-----------
+time=4504748
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=213
+#-----------
+time=4525058
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=214
+#-----------
+time=4543794
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=696
+heap_tree=empty
+#-----------
+snapshot=215
+#-----------
+time=4570384
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=216
+#-----------
+time=4586021
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=217
+#-----------
+time=4604743
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=218
+#-----------
+time=4617266
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=219
+#-----------
+time=4646947
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=220
+#-----------
+time=4667237
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=221
+#-----------
+time=4682874
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=704
+heap_tree=empty
+#-----------
+snapshot=222
+#-----------
+time=4698518
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=223
+#-----------
+time=4714123
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=224
+#-----------
+time=4732876
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=225
+#-----------
+time=4746940
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=226
+#-----------
+time=4768831
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=227
+#-----------
+time=4793818
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=228
+#-----------
+time=4825021
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=229
+#-----------
+time=4846870
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=230
+#-----------
+time=4864065
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=231
+#-----------
+time=4893770
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=232
+#-----------
+time=4912512
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=233
+#-----------
+time=4926597
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=992
+heap_tree=empty
+#-----------
+snapshot=234
+#-----------
+time=4945355
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=235
+#-----------
+time=4973489
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=236
+#-----------
+time=4996917
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=237
+#-----------
+time=5010982
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=238
+#-----------
+time=5035957
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=239
+#-----------
+time=5053170
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=240
+#-----------
+time=5070357
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=241
+#-----------
+time=5092225
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=242
+#-----------
+time=5106303
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=243
+#-----------
+time=5129766
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=244
+#-----------
+time=5146956
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=245
+#-----------
+time=5171948
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=246
+#-----------
+time=5200105
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=247
+#-----------
+time=5220444
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=248
+#-----------
+time=5248560
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=249
+#-----------
+time=5268877
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=250
+#-----------
+time=5279827
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=251
+#-----------
+time=5290777
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=252
+#-----------
+time=5301719
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=253
+#-----------
+time=5312670
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=254
+#-----------
+time=5323616
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=255
+#-----------
+time=5334557
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=256
+#-----------
+time=5345497
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=257
+#-----------
+time=5356436
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=258
+#-----------
+time=5367380
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=259
+#-----------
+time=5378324
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=260
+#-----------
+time=5389265
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=261
+#-----------
+time=5400206
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=792
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=262
+#-----------
+time=5411147
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=263
+#-----------
+time=5422088
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=264
+#-----------
+time=5433028
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=265
+#-----------
+time=5443974
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=266
+#-----------
+time=5454913
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=267
+#-----------
+time=5465865
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=268
+#-----------
+time=5476807
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=848
+heap_tree=empty
+#-----------
+snapshot=269
+#-----------
+time=5487747
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=270
+#-----------
+time=5498693
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=944
+heap_tree=empty
+#-----------
+snapshot=271
+#-----------
+time=5509636
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=272
+#-----------
+time=5520582
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=273
+#-----------
+time=5531523
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=792
+heap_tree=empty
+#-----------
+snapshot=274
+#-----------
+time=5542470
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=275
+#-----------
+time=5553423
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=276
+#-----------
+time=5564372
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=277
+#-----------
+time=5575318
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=278
+#-----------
+time=5586269
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=279
+#-----------
+time=5597221
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=280
+#-----------
+time=5608159
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=281
+#-----------
+time=5619107
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=282
+#-----------
+time=5630049
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=888
+heap_tree=empty
+#-----------
+snapshot=283
+#-----------
+time=5640988
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=284
+#-----------
+time=5651943
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=608
+heap_tree=empty
+#-----------
+snapshot=285
+#-----------
+time=5662890
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=800
+heap_tree=empty
+#-----------
+snapshot=286
+#-----------
+time=5673842
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=287
+#-----------
+time=5684792
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=288
+#-----------
+time=5695732
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=752
+heap_tree=empty
+#-----------
+snapshot=289
+#-----------
+time=5706673
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=840
+heap_tree=empty
+#-----------
+snapshot=290
+#-----------
+time=5717615
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=291
+#-----------
+time=5728566
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=detailed
+n10: 2248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 880 0x10A998: make_matrix (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 880 0x10A55F: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 880 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109ABA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109AEA: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B1A: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B46: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 80 0x109B72: alloc_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 80 0x10A6C1: make_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 80 0x109715: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n0: 16 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=292
+#-----------
+time=5739512
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=293
+#-----------
+time=5750453
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=294
+#-----------
+time=5761393
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=295
+#-----------
+time=5772332
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=296
+#-----------
+time=5783276
+mem_heap_B=2248
+mem_heap_extra_B=1208
+mem_stacks_B=896
+heap_tree=empty
+#-----------
+snapshot=297
+#-----------
+time=5794345
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2200
+heap_tree=empty
+#-----------
+snapshot=298
+#-----------
+time=5805414
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2200
+heap_tree=empty
+#-----------
+snapshot=299
+#-----------
+time=5816357
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2224
+heap_tree=empty
+#-----------
+snapshot=300
+#-----------
+time=5827320
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=301
+#-----------
+time=5838277
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=detailed
+n5: 5448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48E70AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 4096 0x48E5834: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 4096 0x48E5834: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 4096 0x48CD92C: __vfprintf_internal (vfprintf-internal.c:1687)
+       n1: 4096 0x48B7DE9: fprintf (fprintf.c:32)
+        n1: 4096 0x109CFB: write_spl (in /home/weronika/JIMP/aproksymator/czebyszew)
+         n0: 4096 0x10972F: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x1096C1: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 400 in 9 places, all below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=302
+#-----------
+time=5849230
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2496
+heap_tree=empty
+#-----------
+snapshot=303
+#-----------
+time=5860184
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2504
+heap_tree=empty
+#-----------
+snapshot=304
+#-----------
+time=5871149
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=305
+#-----------
+time=5882091
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2160
+heap_tree=empty
+#-----------
+snapshot=306
+#-----------
+time=5893120
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=307
+#-----------
+time=5904059
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2744
+heap_tree=empty
+#-----------
+snapshot=308
+#-----------
+time=5915066
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=309
+#-----------
+time=5926094
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2104
+heap_tree=empty
+#-----------
+snapshot=310
+#-----------
+time=5937053
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2664
+heap_tree=empty
+#-----------
+snapshot=311
+#-----------
+time=5948025
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2600
+heap_tree=detailed
+n5: 5448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n2: 4096 0x48E70AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 4096 0x48B3DAF: __printf_fp_l (printf_fp.c:1246)
+     n1: 4096 0x48CD639: __vfprintf_internal (vfprintf-internal.c:1687)
+      n1: 4096 0x48B7DE9: fprintf (fprintf.c:32)
+       n0: 4096 0x109A36: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x109897: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 400 in 9 places, all below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=312
+#-----------
+time=5958963
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2696
+heap_tree=empty
+#-----------
+snapshot=313
+#-----------
+time=5969981
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=314
+#-----------
+time=5980955
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2744
+heap_tree=empty
+#-----------
+snapshot=315
+#-----------
+time=5991905
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2688
+heap_tree=empty
+#-----------
+snapshot=316
+#-----------
+time=6002857
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2096
+heap_tree=empty
+#-----------
+snapshot=317
+#-----------
+time=6013796
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2744
+heap_tree=empty
+#-----------
+snapshot=318
+#-----------
+time=6024745
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2112
+heap_tree=empty
+#-----------
+snapshot=319
+#-----------
+time=6035696
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2496
+heap_tree=empty
+#-----------
+snapshot=320
+#-----------
+time=6046639
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2696
+heap_tree=empty
+#-----------
+snapshot=321
+#-----------
+time=6057620
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2600
+heap_tree=detailed
+n5: 5448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n2: 4096 0x48E70AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 4096 0x48B3DAF: __printf_fp_l (printf_fp.c:1246)
+     n1: 4096 0x48CD639: __vfprintf_internal (vfprintf-internal.c:1687)
+      n1: 4096 0x48B7DE9: fprintf (fprintf.c:32)
+       n0: 4096 0x109A36: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x109897: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 400 in 9 places, all below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=322
+#-----------
+time=6068593
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2664
+heap_tree=empty
+#-----------
+snapshot=323
+#-----------
+time=6079541
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2656
+heap_tree=empty
+#-----------
+snapshot=324
+#-----------
+time=6090480
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2600
+heap_tree=empty
+#-----------
+snapshot=325
+#-----------
+time=6101434
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2664
+heap_tree=empty
+#-----------
+snapshot=326
+#-----------
+time=6112396
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2184
+heap_tree=empty
+#-----------
+snapshot=327
+#-----------
+time=6123349
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2744
+heap_tree=empty
+#-----------
+snapshot=328
+#-----------
+time=6134335
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=329
+#-----------
+time=6145274
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2104
+heap_tree=empty
+#-----------
+snapshot=330
+#-----------
+time=6156250
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2744
+heap_tree=empty
+#-----------
+snapshot=331
+#-----------
+time=6167204
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2600
+heap_tree=detailed
+n5: 5448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n2: 4096 0x48E70AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 4096 0x48B3DAF: __printf_fp_l (printf_fp.c:1246)
+     n1: 4096 0x48CD639: __vfprintf_internal (vfprintf-internal.c:1687)
+      n1: 4096 0x48B7DE9: fprintf (fprintf.c:32)
+       n0: 4096 0x109A36: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x109897: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 400 in 9 places, all below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=332
+#-----------
+time=6178159
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2664
+heap_tree=empty
+#-----------
+snapshot=333
+#-----------
+time=6189111
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2664
+heap_tree=empty
+#-----------
+snapshot=334
+#-----------
+time=6200093
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2600
+heap_tree=empty
+#-----------
+snapshot=335
+#-----------
+time=6211157
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=336
+#-----------
+time=6222104
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2104
+heap_tree=empty
+#-----------
+snapshot=337
+#-----------
+time=6233089
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2664
+heap_tree=empty
+#-----------
+snapshot=338
+#-----------
+time=6244041
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2592
+heap_tree=empty
+#-----------
+snapshot=339
+#-----------
+time=6254988
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2696
+heap_tree=empty
+#-----------
+snapshot=340
+#-----------
+time=6266032
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2152
+heap_tree=empty
+#-----------
+snapshot=341
+#-----------
+time=6277005
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2744
+heap_tree=detailed
+n5: 5448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48D7E83: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x48E804F: _IO_doallocbuf (genops.c:347)
+   n2: 4096 0x48E70AF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 4096 0x48B3DAF: __printf_fp_l (printf_fp.c:1246)
+     n1: 4096 0x48CD639: __vfprintf_internal (vfprintf-internal.c:1687)
+      n1: 4096 0x48B7DE9: fprintf (fprintf.c:32)
+       n0: 4096 0x109A36: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x48D8AAD: __fopen_internal (iofopen.c:65)
+  n2: 472 0x48D8AAD: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n0: 472 0x109897: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 400 in 9 places, all below massif's threshold (1.00%)
+ n1: 240 0x109F8A: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+ n1: 240 0x109FAE: realloc_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+  n1: 240 0x10A1BC: read_pts_failed (in /home/weronika/JIMP/aproksymator/czebyszew)
+   n0: 240 0x109665: main (in /home/weronika/JIMP/aproksymator/czebyszew)
+#-----------
+snapshot=342
+#-----------
+time=6287965
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2104
+heap_tree=empty
+#-----------
+snapshot=343
+#-----------
+time=6298958
+mem_heap_B=5448
+mem_heap_extra_B=1200
+mem_stacks_B=2600
+heap_tree=empty
+#-----------
+snapshot=344
+#-----------
+time=6309897
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=448
+heap_tree=empty

@@ -4,8 +4,8 @@
 #include <time.h>
 
 double fun( double x ) {
-				double r= ((double)rand() - RAND_MAX/2.0)/RAND_MAX/5; // +-10%
-				return (1+r)*(pow(2,x));
+				double r= ((double)rand() - RAND_MAX/2.0)/RAND_MAX/3; // +-10%
+				return (1+r)*(sin(x));
 }
 
 int main( int argc, char **argv ) {

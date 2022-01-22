@@ -6,6 +6,7 @@ realloc_pts_failed (points_t * pts, int size)
 {
 	double *tmp_x = realloc(pts->x, size * sizeof *pts->x);
 	double *tmp_y = realloc(pts->y, size * sizeof *pts->y);
+	
 	if(tmp_x == NULL)
 	{
 		free(pts->x);
